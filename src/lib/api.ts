@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
+  
   baseURL: 'https://ai-drive-api.aime-rick.me',
   headers: {
     'Content-Type': 'application/json',
