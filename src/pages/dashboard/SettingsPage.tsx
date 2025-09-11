@@ -48,7 +48,7 @@ const SettingsPage = () => {
   }, [isDriveConnected]);
 
   const handleConnectDrive = () => {
-    window.location.href = 'http://localhost:8000/authorize';
+    window.location.href = 'https://ai-drive-api.aime-rick.me/authorize';
   };
 
   const handleDisconnectDrive = async () => {
