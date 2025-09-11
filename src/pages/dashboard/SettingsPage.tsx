@@ -50,6 +50,7 @@ const SettingsPage = () => {
   const handleConnectDrive = () => {
     window.location.href = 'https://ai-drive-api.aime-rick.me/authorize';
   };
+  
 
   const handleDisconnectDrive = async () => {
     try {
